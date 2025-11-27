@@ -1,0 +1,32 @@
+{
+  "display": "Configuration for Poker Game",
+  "compilerOptions": {
+    "target": "es2022",
+    "module": "es2022",
+    "moduleResolution": "node",
+    "allowJs": true,
+    "rootDir": "./",
+    "outDir": "./dist",
+    "declaration": true,
+    "alwaysStrict": true,
+    "strict": true,
+    "lib": ["ESNext", "dom"],
+    "noImplicitAny": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": [
+    "model/**/*",
+    "controller/**/*",
+    "view/**/*",
+    "main.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist",
+    "docs",
+    "src"
+  ]
+}
