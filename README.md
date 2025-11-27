@@ -28,7 +28,7 @@ Este proyecto simula un juego de póker para dos jugadores, permitiendo repartir
 
 1. Clona el repositorio:
 ```bash
-git clone https://github.com/tu-usuario/PokerGame.git
+git clone git@github.com:Guillermo-Gonzalez-Pineda/PokerGame.git
 cd PokerGame
 ```
 
